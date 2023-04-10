@@ -72,7 +72,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="跳過"/>
                                 <connections>
-                                    <action selector="passButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mvi-fl-2oz"/>
+                                    <action selector="skipQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nI-mU-T2X"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3VP-A4-6OB">
@@ -81,7 +81,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="上一題"/>
                                 <connections>
-                                    <action selector="previousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wIA-4X-oUj"/>
+                                    <action selector="backQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94u-ca-KVg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sq7-xp-QKC">

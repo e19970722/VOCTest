@@ -113,7 +113,7 @@ class QuestionViewController: UIViewController {
         if sender.title(for: .normal) == vocTest[index].answer{
             score += 10
         }else{
-            wrongVOC += "\(vocTest[index].voc)   \(vocTest[index].answer)       \(sender.titleLabel?.text ?? "")\n"
+            wrongVOC += "\(vocTest[index].voc) \(vocTest[index].answer) \(sender.titleLabel?.text ?? "")\n"
         }
         next()
     }
@@ -122,7 +122,7 @@ class QuestionViewController: UIViewController {
         if sender.title(for: .normal) == vocTest[index].answer{
             score += 10
         }else{
-            wrongVOC += "\(vocTest[index].voc)   \(vocTest[index].answer)       \(sender.titleLabel?.text ?? "")\n"
+            wrongVOC += "\(vocTest[index].voc) \(vocTest[index].answer) \(sender.titleLabel?.text ?? "")\n"
         }
         next()
     }
@@ -131,7 +131,7 @@ class QuestionViewController: UIViewController {
         if sender.title(for: .normal) == vocTest[index].answer{
             score += 10
         }else{
-            wrongVOC += "\(vocTest[index].voc)   \(vocTest[index].answer)       \(sender.titleLabel?.text ?? "")\n"
+            wrongVOC += "\(vocTest[index].voc) \(vocTest[index].answer) \(sender.titleLabel?.text ?? "")\n"
         }
         next()
     }
@@ -140,7 +140,7 @@ class QuestionViewController: UIViewController {
         if sender.title(for: .normal) == vocTest[index].answer{
             score += 10
         }else{
-            wrongVOC += "\(vocTest[index].voc)   \(vocTest[index].answer)       \(sender.titleLabel?.text ?? "")\n"
+            wrongVOC += "\(vocTest[index].voc) \(vocTest[index].answer) \(sender.titleLabel?.text ?? "")\n"
         }
         next()
     }
